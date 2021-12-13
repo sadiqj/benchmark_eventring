@@ -1,0 +1,4 @@
+(executable
+ (libraries unix)
+ (foreign_stubs (language c) (names stubs))
+ (name benchmark))
